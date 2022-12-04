@@ -1,5 +1,8 @@
 function removeDuplicates(array) {
   // Your Code Here
+
+  let hapus = [...new Set(array)];
+  return hapus.length;
 }
 
 console.log(removeDuplicates([2, 3, 3, 3, 6, 9, 9])); // 4

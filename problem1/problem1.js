@@ -1,7 +1,9 @@
 function compareString(a, b) {
-  // Your Code Here
-
-  //oke
+  let kata = a.length < b.length ? a : b;
+  let long = kata == a ? b : a;
+  if (long.includes(kata)) {
+    return kata;
+  }
 }
 
 console.log(compareString("AKA", "AKASHI")); // AKA
