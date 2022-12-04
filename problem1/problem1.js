@@ -1,5 +1,7 @@
 function compareString(a, b) {
   // Your Code Here
+
+  //oke
 }
 
 console.log(compareString("AKA", "AKASHI")); // AKA
